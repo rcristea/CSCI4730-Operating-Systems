@@ -1,0 +1,27 @@
+# PAGES: 8, # FRAMES: 3, # PROCS: 1, Replacement Policy: 1 - FIFO
+[pid 0, W] 0x0700 --> 0x0000: A [miss]
+[pid 0, W] 0x0000 --> 0x0100: B [miss]
+[pid 0, W] 0x0100 --> 0x0200: C [miss]
+[pid 0, W] 0x0200 --> 0x0000: D [miss]
+[pid 0, W] 0x0000 --> 0x0000: E [miss]
+[pid 0, W] 0x0300 --> 0x0000: F [miss]
+[pid 0, R] 0x0000 --> 0x0000: F [miss]
+[pid 0, W] 0x0400 --> 0x0000: G [miss]
+[pid 0, R] 0x0200 --> 0x0000: G [miss]
+[pid 0, R] 0x0300 --> 0x0000: G [miss]
+[pid 0, W] 0x0000 --> 0x0000: H [miss]
+[pid 0, W] 0x0300 --> 0x0000: I [miss]
+[pid 0, R] 0x0200 --> 0x0000: I [miss]
+[pid 0, R] 0x0100 --> 0x0000: I [miss]
+[pid 0, R] 0x0200 --> 0x0000: I [miss]
+[pid 0, R] 0x0000 --> 0x0000: I [miss]
+[pid 0, R] 0x0100 --> 0x0000: I [miss]
+[pid 0, R] 0x0700 --> 0x0000: I [miss]
+[pid 0, R] 0x0000 --> 0x0000: I [miss]
+[pid 0, R] 0x0100 --> 0x0000: I [miss]
+=====================================
+Request: 20
+Page Hit: 0 (0.00%)
+Page Miss: 20 (100.00%)
+Swap Read: 0
+Swap Write: 0
