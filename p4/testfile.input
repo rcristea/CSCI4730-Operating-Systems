@@ -1,0 +1,42 @@
+df
+ls
+create A 10
+df
+ls
+stat A
+cat A
+create B 7679
+df
+ls
+stat B
+cat B
+create C 7690
+df
+ls
+stat C
+cat C
+ln C C_link
+df
+ls
+stat C_link
+cat C_link
+cp C C_copy
+df
+ls
+stat C_copy
+cat C_copy
+rm C_copy
+df
+ls
+rm C
+df
+ls
+rm C_link
+df
+ls
+rm B
+df
+ls
+rm A
+df
+ls

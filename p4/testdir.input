@@ -1,0 +1,25 @@
+mkdir dirA
+ls
+df
+cd dirA
+create fileA 100
+mkdir dirA
+rmdir ..
+cd dirA
+ls
+cd ..
+rmdir dirA
+ls
+df
+cd ..
+rmdir dirA
+ls
+df
+cd dirA
+rm fileA
+ls
+df
+cd ..
+rmdir dirA
+ls
+df
